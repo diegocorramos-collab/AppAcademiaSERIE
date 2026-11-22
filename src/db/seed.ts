@@ -122,6 +122,9 @@ async function seedExercises(db: SQLiteDatabase) {
 }
 
 async function seedPrograms(db: SQLiteDatabase) {
+  const knownRows = await db.getAllAsync<{ id: string }>('SELECT id FROM exercises');
+  const known = new Set(knownRows.map((r) => r.id));
+
   const progStmt = await db.prepareAsync(
     `INSERT OR REPLACE INTO programs
       (id, name, description, goal, level, modality, days_per_week, weeks, equipment, focus_summary, progression, sort_order)
@@ -147,12 +150,15 @@ async function seedPrograms(db: SQLiteDatabase) {
         const d = p.days[i];
         const dayId = `${p.id}-d${i + 1}`;
         await dayStmt.executeAsync([dayId, p.id, i, d.name, d.focus, i]);
-        for (let j = 0; j < d.exercises.length; j++) {
-          const e = d.exercises[j];
+        let position = 0;
+        for (const e of d.exercises) {
+          // referências a exercícios que não existem na base são ignoradas
+          if (!known.has(e.exerciseId)) continue;
           await exStmt.executeAsync([
-            `${dayId}-e${j + 1}`, dayId, e.exerciseId, j,
+            `${dayId}-e${position + 1}`, dayId, e.exerciseId, position,
             e.sets, e.repsMin, e.repsMax, e.restSeconds, e.rpe, e.notes,
           ]);
+          position++;
         }
       }
     }
