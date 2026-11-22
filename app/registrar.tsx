@@ -3,6 +3,7 @@ import { TextInput, View } from 'react-native';
 import { router, useFocusEffect, useLocalSearchParams } from 'expo-router';
 import { useSQLiteContext } from 'expo-sqlite';
 import { AppText, Button, Card, Loading, Row, Screen, SectionTitle } from '../src/components/ui';
+import { ExerciseImage } from '../src/components/ExerciseImage';
 import { colors, fonts, radius, spacing } from '../src/theme';
 import { USER_ID, nowIso, uid } from '../src/db';
 import type { PlanExercise } from '../src/db/types';
@@ -111,7 +112,8 @@ export default function Registrar() {
         const entry = entries[item.id];
         return (
           <Card key={item.id}>
-            <Row>
+            <Row style={{ gap: spacing.md }}>
+              <ExerciseImage id={item.exercise_id} size={46} />
               <View style={{ flex: 1, gap: 2 }}>
                 <AppText variant="subtitle">{item.name}</AppText>
                 <AppText variant="muted">{item.sets} séries · {item.rest_seconds}s descanso</AppText>

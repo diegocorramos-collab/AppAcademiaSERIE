@@ -3,6 +3,7 @@ import { View } from 'react-native';
 import { router, useFocusEffect, useLocalSearchParams } from 'expo-router';
 import { useSQLiteContext } from 'expo-sqlite';
 import { AppText, Button, Card, Loading, Row, Screen, SectionTitle } from '../../src/components/ui';
+import { ExerciseImage } from '../../src/components/ExerciseImage';
 import { colors, spacing } from '../../src/theme';
 import type { PlanExercise, WorkoutPlan } from '../../src/db/types';
 
@@ -39,10 +40,8 @@ export default function PlanoDetalhe() {
       <SectionTitle>Sequência</SectionTitle>
       {items.map((e, i) => (
         <Card key={e.id}>
-          <Row>
-            <View style={{ width: 28 }}>
-              <AppText variant="muted">{String(i + 1).padStart(2, '0')}</AppText>
-            </View>
+          <Row style={{ gap: spacing.md }}>
+            <ExerciseImage id={e.exercise_id} size={52} />
             <View style={{ flex: 1, gap: 2 }}>
               <AppText variant="subtitle">{e.name}</AppText>
               <AppText variant="muted">

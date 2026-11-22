@@ -2,6 +2,7 @@ import React, { useCallback, useEffect, useState } from 'react';
 import { View } from 'react-native';
 import { useSQLiteContext } from 'expo-sqlite';
 import { AppText, Card, EmptyState, Field, Row, Screen, Segmented } from '../src/components/ui';
+import { ExerciseImage } from '../src/components/ExerciseImage';
 import type { Exercise } from '../src/db/types';
 import { spacing } from '../src/theme';
 
@@ -47,7 +48,8 @@ export default function Exercicios() {
       ) : (
         items.map((e) => (
           <Card key={e.id} style={{ gap: spacing.sm }}>
-            <Row>
+            <Row style={{ gap: spacing.md }}>
+              <ExerciseImage id={e.id} size={56} />
               <View style={{ flex: 1, gap: 2 }}>
                 <AppText variant="subtitle">{e.name}</AppText>
                 <AppText variant="muted">

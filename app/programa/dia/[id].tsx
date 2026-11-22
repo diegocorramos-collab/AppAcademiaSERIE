@@ -3,6 +3,7 @@ import { View } from 'react-native';
 import { router, useFocusEffect, useLocalSearchParams } from 'expo-router';
 import { useSQLiteContext } from 'expo-sqlite';
 import { AppText, Button, Card, Loading, Row, Screen, SectionTitle } from '../../../src/components/ui';
+import { ExerciseImage } from '../../../src/components/ExerciseImage';
 import { colors, spacing } from '../../../src/theme';
 import { USER_ID, nowIso, uid } from '../../../src/db';
 import type { ProgramDay } from '../../../src/db/types';
@@ -94,7 +95,8 @@ export default function ProgramaDia() {
       <SectionTitle>Exercícios</SectionTitle>
       {items.map((e) => (
         <Card key={e.id}>
-          <Row>
+          <Row style={{ gap: spacing.md }}>
+            <ExerciseImage id={e.exercise_id} size={52} />
             <View style={{ flex: 1, gap: 2 }}>
               <AppText variant="subtitle">{e.name}</AppText>
               <AppText variant="muted">
