@@ -1,0 +1,80 @@
+{
+  "expo": {
+    "name": "SÉRIE",
+    "slug": "app-academia",
+    "scheme": "appacademia",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "backgroundColor": "#0B0C0E",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.diego.appacademia",
+      "buildNumber": "1"
+    },
+    "android": {
+      "package": "com.diego.appacademia",
+      "versionCode": 5,
+      "predictiveBackGestureEnabled": false,
+      "adaptiveIcon": {
+        "backgroundColor": "#0B0C0E",
+        "foregroundImage": "./assets/icon.png"
+      },
+      "permissions": ["android.permission.CAMERA", "android.permission.POST_NOTIFICATIONS"]
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-sqlite",
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "O SÉRIE acessa suas fotos para registrar sua evolução.",
+          "microphonePermission": false
+        }
+      ],
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "O SÉRIE usa a câmera para ler códigos de barras dos alimentos.",
+          "microphonePermission": false,
+          "recordAudioAndroid": false
+        }
+      ],
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/splash-icon.png",
+          "imageWidth": 180,
+          "resizeMode": "contain",
+          "backgroundColor": "#0B0C0E"
+        }
+      ],
+      [
+        "expo-notifications",
+        {
+          "color": "#FF5A2A",
+          "defaultChannel": "lembretes",
+          "enableRemoteNotifications": false
+        }
+      ],
+      "expo-status-bar",
+      "expo-sharing",
+      "expo-document-picker"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "1d1576fd-478e-4f34-8a40-a39619a01cc2"
+      }
+    }
+  }
+}

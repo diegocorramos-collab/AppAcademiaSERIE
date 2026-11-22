@@ -1,0 +1,1355 @@
+[
+ {
+  "id": "full-body-iniciante",
+  "name": "Full Body Iniciante",
+  "description": "Três treinos de corpo inteiro por semana para construir base de força e técnica.",
+  "goal": "Hipertrofia e base de força",
+  "level": "Iniciante",
+  "modality": "musculacao",
+  "daysPerWeek": 3,
+  "weeks": 8,
+  "equipment": "Academia",
+  "focusSummary": "Corpo inteiro A/B/C",
+  "progression": "Comece na parte de baixo das repetições. Quando bater o topo da faixa em todas as séries, aumente 2,5 kg (ou uma variação mais difícil). Nas semanas 4 e 8, reduza o volume pela metade (deload).",
+  "sortOrder": 10,
+  "days": [
+   {
+    "name": "A",
+    "focus": "Corpo inteiro — empurrar e agachar",
+    "exercises": [
+     {
+      "exerciseId": "supino-reto",
+      "sets": 3,
+      "repsMin": 8,
+      "repsMax": 12,
+      "restSeconds": 90,
+      "rpe": null,
+      "notes": null
+     },
+     {
+      "exerciseId": "agachamento-livre",
+      "sets": 3,
+      "repsMin": 8,
+      "repsMax": 12,
+      "restSeconds": 120,
+      "rpe": null,
+      "notes": null
+     },
+     {
+      "exerciseId": "remada-curvada",
+      "sets": 3,
+      "repsMin": 8,
+      "repsMax": 12,
+      "restSeconds": 90,
+      "rpe": null,
+      "notes": null
+     },
+     {
+      "exerciseId": "ex-Dumbbell_Shoulder_Press",
+      "sets": 3,
+      "repsMin": 10,
+      "repsMax": 12,
+      "restSeconds": 60,
+      "rpe": null,
+      "notes": null
+     },
+     {
+      "exerciseId": "ex-Lying_Leg_Curls",
+      "sets": 3,
+      "repsMin": 10,
+      "repsMax": 12,
+      "restSeconds": 60,
+      "rpe": null,
+      "notes": null
+     },
+     {
+      "exerciseId": "prancha",
+      "sets": 3,
+      "repsMin": 30,
+      "repsMax": 45,
+      "restSeconds": 45,
+      "rpe": null,
+      "notes": null
+     }
+    ]
+   },
+   {
+    "name": "B",
+    "focus": "Corpo inteiro — puxar e dobradiça",
+    "exercises": [
+     {
+      "exerciseId": "levantamento-terra",
+      "sets": 3,
+      "repsMin": 6,
+      "repsMax": 8,
+      "restSeconds": 120,
+      "rpe": null,
+      "notes": null
+     },
+     {
+      "exerciseId": "ex-Incline_Dumbbell_Press",
+      "sets": 3,
+      "repsMin": 8,
+      "repsMax": 12,
+      "restSeconds": 90,
+      "rpe": null,
+      "notes": null
+     },
+     {
+      "exerciseId": "ex-Wide-Grip_Lat_Pulldown",
+      "sets": 3,
+      "repsMin": 8,
+      "repsMax": 12,
+      "restSeconds": 90,
+      "rpe": null,
+      "notes": null
+     },
+     {
+      "exerciseId": "ex-Dumbbell_Lunges",
+      "sets": 3,
+      "repsMin": 10,
+      "repsMax": 12,
+      "restSeconds": 60,
+      "rpe": null,
+      "notes": null
+     },
+     {
+      "exerciseId": "rosca-direta",
+      "sets": 3,
+      "repsMin": 10,
+      "repsMax": 12,
+      "restSeconds": 60,
+      "rpe": null,
+      "notes": null
+     },
+     {
+      "exerciseId": "ex-Triceps_Pushdown",
+      "sets": 3,
+      "repsMin": 10,
+      "repsMax": 12,
+      "restSeconds": 60,
+      "rpe": null,
+      "notes": null
+     }
+    ]
+   },
+   {
+    "name": "C",
+    "focus": "Corpo inteiro — pernas e acessórios",
+    "exercises": [
+     {
+      "exerciseId": "leg-press",
+      "sets": 4,
+      "repsMin": 10,
+      "repsMax": 12,
+      "restSeconds": 90,
+      "rpe": null,
+      "notes": null
+     },
+     {
+      "exerciseId": "ex-One-Arm_Dumbbell_Row",
+      "sets": 3,
+      "repsMin": 8,
+      "repsMax": 12,
+      "restSeconds": 90,
+      "rpe": null,
+      "notes": null
+     },
+     {
+      "exerciseId": "ex-Cable_Crossover",
+      "sets": 3,
+      "repsMin": 12,
+      "repsMax": 15,
+      "restSeconds": 60,
+      "rpe": null,
+      "notes": null
+     },
+     {
+      "exerciseId": "ex-Seated_Dumbbell_Press",
+      "sets": 3,
+      "repsMin": 10,
+      "repsMax": 12,
+      "restSeconds": 60,
+      "rpe": null,
+      "notes": null
+     },
+     {
+      "exerciseId": "ex-Hammer_Curls",
+      "sets": 3,
+      "repsMin": 10,
+      "repsMax": 12,
+      "restSeconds": 45,
+      "rpe": null,
+      "notes": null
+     },
+     {
+      "exerciseId": "ex-Bench_Dips",
+      "sets": 3,
+      "repsMin": 8,
+      "repsMax": 12,
+      "restSeconds": 60,
+      "rpe": null,
+      "notes": null
+     },
+     {
+      "exerciseId": "ex-Side_Bridge",
+      "sets": 3,
+      "repsMin": 30,
+      "repsMax": 45,
+      "restSeconds": 45,
+      "rpe": null,
+      "notes": null
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "upper-lower-4x",
+  "name": "Upper / Lower",
+  "description": "Quatro treinos divididos entre superiores e inferiores, alternando força e hipertrofia.",
+  "goal": "Força e hipertrofia",
+  "level": "Intermediário",
+  "modality": "musculacao",
+  "daysPerWeek": 4,
+  "weeks": 8,
+  "equipment": "Academia",
+  "focusSummary": "Superiores e inferiores",
+  "progression": "Suba a carga quando bater o topo das repetições em todas as séries. A cada 4 semanas, faça uma semana leve com cerca de 60% do volume. Registre as cargas para acompanhar a evolução.",
+  "sortOrder": 20,
+  "days": [
+   {
+    "name": "A",
+    "focus": "Superiores — força",
+    "exercises": [
+     {
+      "exerciseId": "supino-reto",
+      "sets": 4,
+      "repsMin": 5,
+      "repsMax": 8,
+      "restSeconds": 150,
+      "rpe": null,
+      "notes": null
+     },
+     {
+      "exerciseId": "remada-curvada",
+      "sets": 4,
+      "repsMin": 6,
+      "repsMax": 8,
+      "restSeconds": 120,
+      "rpe": null,
+      "notes": null
+     },
+     {
+      "exerciseId": "desenvolvimento-militar",
+      "sets": 3,
+      "repsMin": 6,
+      "repsMax": 10,
+      "restSeconds": 90,
+      "rpe": null,
+      "notes": null
+     },
+     {
+      "exerciseId": "ex-Wide-Grip_Lat_Pulldown",
+      "sets": 3,
+      "repsMin": 8,
+      "repsMax": 10,
+      "restSeconds": 90,
+      "rpe": null,
+      "notes": null
+     },
+     {
+      "exerciseId": "rosca-direta",
+      "sets": 3,
+      "repsMin": 8,
+      "repsMax": 12,
+      "restSeconds": 60,
+      "rpe": null,
+      "notes": null
+     },
+     {
+      "exerciseId": "ex-Close-Grip_Barbell_Bench_Press",
+      "sets": 3,
+      "repsMin": 8,
+      "repsMax": 10,
+      "restSeconds": 60,
+      "rpe": null,
+      "notes": null
+     }
+    ]
+   },
+   {
+    "name": "B",
+    "focus": "Inferiores — força",
+    "exercises": [
+     {
+      "exerciseId": "agachamento-livre",
+      "sets": 4,
+      "repsMin": 5,
+      "repsMax": 8,
+      "restSeconds": 180,
+      "rpe": null,
+      "notes": null
+     },
+     {
+      "exerciseId": "levantamento-terra",
+      "sets": 3,
+      "repsMin": 5,
+      "repsMax": 6,
+      "restSeconds": 180,
+      "rpe": null,
+      "notes": null
+     },
+     {
+      "exerciseId": "leg-press",
+      "sets": 3,
+      "repsMin": 8,
+      "repsMax": 12,
+      "restSeconds": 120,
+      "rpe": null,
+      "notes": null
+     },
+     {
+      "exerciseId": "ex-Lying_Leg_Curls",
+      "sets": 3,
+      "repsMin": 10,
+      "repsMax": 12,
+      "restSeconds": 60,
+      "rpe": null,
+      "notes": null
+     },
+     {
+      "exerciseId": "ex-Standing_Calf_Raises",
+      "sets": 4,
+      "repsMin": 10,
+      "repsMax": 15,
+      "restSeconds": 60,
+      "rpe": null,
+      "notes": null
+     },
+     {
+      "exerciseId": "prancha",
+      "sets": 3,
+      "repsMin": 40,
+      "repsMax": 60,
+      "restSeconds": 45,
+      "rpe": null,
+      "notes": null
+     }
+    ]
+   },
+   {
+    "name": "C",
+    "focus": "Superiores — hipertrofia",
+    "exercises": [
+     {
+      "exerciseId": "ex-Incline_Dumbbell_Press",
+      "sets": 4,
+      "repsMin": 8,
+      "repsMax": 12,
+      "restSeconds": 90,
+      "rpe": null,
+      "notes": null
+     },
+     {
+      "exerciseId": "ex-Seated_Cable_Rows",
+      "sets": 4,
+      "repsMin": 8,
+      "repsMax": 12,
+      "restSeconds": 90,
+      "rpe": null,
+      "notes": null
+     },
+     {
+      "exerciseId": "ex-Seated_Dumbbell_Press",
+      "sets": 3,
+      "repsMin": 10,
+      "repsMax": 12,
+      "restSeconds": 60,
+      "rpe": null,
+      "notes": null
+     },
+     {
+      "exerciseId": "ex-Cable_Crossover",
+      "sets": 3,
+      "repsMin": 12,
+      "repsMax": 15,
+      "restSeconds": 60,
+      "rpe": null,
+      "notes": null
+     },
+     {
+      "exerciseId": "ex-Hammer_Curls",
+      "sets": 3,
+      "repsMin": 10,
+      "repsMax": 12,
+      "restSeconds": 45,
+      "rpe": null,
+      "notes": null
+     },
+     {
+      "exerciseId": "ex-Triceps_Pushdown",
+      "sets": 3,
+      "repsMin": 10,
+      "repsMax": 12,
+      "restSeconds": 45,
+      "rpe": null,
+      "notes": null
+     }
+    ]
+   },
+   {
+    "name": "D",
+    "focus": "Inferiores — hipertrofia",
+    "exercises": [
+     {
+      "exerciseId": "ex-Romanian_Deadlift",
+      "sets": 4,
+      "repsMin": 8,
+      "repsMax": 10,
+      "restSeconds": 120,
+      "rpe": null,
+      "notes": null
+     },
+     {
+      "exerciseId": "leg-press",
+      "sets": 4,
+      "repsMin": 10,
+      "repsMax": 12,
+      "restSeconds": 90,
+      "rpe": null,
+      "notes": null
+     },
+     {
+      "exerciseId": "ex-Dumbbell_Lunges",
+      "sets": 3,
+      "repsMin": 10,
+      "repsMax": 12,
+      "restSeconds": 60,
+      "rpe": null,
+      "notes": null
+     },
+     {
+      "exerciseId": "ex-Leg_Extensions",
+      "sets": 3,
+      "repsMin": 12,
+      "repsMax": 15,
+      "restSeconds": 60,
+      "rpe": null,
+      "notes": null
+     },
+     {
+      "exerciseId": "ex-Seated_Calf_Raise",
+      "sets": 4,
+      "repsMin": 12,
+      "repsMax": 15,
+      "restSeconds": 45,
+      "rpe": null,
+      "notes": null
+     },
+     {
+      "exerciseId": "ex-Hanging_Leg_Raise",
+      "sets": 3,
+      "repsMin": 8,
+      "repsMax": 12,
+      "restSeconds": 60,
+      "rpe": null,
+      "notes": null
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "ppl-5x",
+  "name": "Push / Pull / Legs",
+  "description": "Cinco dias com empurrar, puxar e pernas, mais um dia extra de empurrar e puxar para volume.",
+  "goal": "Hipertrofia",
+  "level": "Intermediário",
+  "modality": "musculacao",
+  "daysPerWeek": 5,
+  "weeks": 8,
+  "equipment": "Academia",
+  "focusSummary": "Empurrar, puxar e pernas",
+  "progression": "Suba a carga quando bater o topo das repetições em todas as séries. A cada 4 semanas, faça uma semana leve com cerca de 60% do volume. Registre as cargas para acompanhar a evolução.",
+  "sortOrder": 30,
+  "days": [
+   {
+    "name": "A",
+    "focus": "Push — peito, ombro e tríceps",
+    "exercises": [
+     {
+      "exerciseId": "supino-reto",
+      "sets": 4,
+      "repsMin": 6,
+      "repsMax": 10,
+      "restSeconds": 120,
+      "rpe": null,
+      "notes": null
+     },
+     {
+      "exerciseId": "ex-Incline_Dumbbell_Press",
+      "sets": 3,
+      "repsMin": 8,
+      "repsMax": 12,
+      "restSeconds": 90,
+      "rpe": null,
+      "notes": null
+     },
+     {
+      "exerciseId": "ex-Seated_Dumbbell_Press",
+      "sets": 3,
+      "repsMin": 8,
+      "repsMax": 12,
+      "restSeconds": 90,
+      "rpe": null,
+      "notes": null
+     },
+     {
+      "exerciseId": "ex-Cable_Seated_Lateral_Raise",
+      "sets": 3,
+      "repsMin": 12,
+      "repsMax": 15,
+      "restSeconds": 45,
+      "rpe": null,
+      "notes": null
+     },
+     {
+      "exerciseId": "ex-Triceps_Pushdown",
+      "sets": 3,
+      "repsMin": 10,
+      "repsMax": 12,
+      "restSeconds": 45,
+      "rpe": null,
+      "notes": null
+     },
+     {
+      "exerciseId": "ex-Push-Ups_-_Close_Triceps_Position",
+      "sets": 3,
+      "repsMin": 8,
+      "repsMax": 12,
+      "restSeconds": 60,
+      "rpe": null,
+      "notes": null
+     }
+    ]
+   },
+   {
+    "name": "B",
+    "focus": "Pull — costas e bíceps",
+    "exercises": [
+     {
+      "exerciseId": "barra-fixa",
+      "sets": 4,
+      "repsMin": 6,
+      "repsMax": 10,
+      "restSeconds": 120,
+      "rpe": null,
+      "notes": null
+     },
+     {
+      "exerciseId": "remada-curvada",
+      "sets": 4,
+      "repsMin": 6,
+      "repsMax": 10,
+      "restSeconds": 120,
+      "rpe": null,
+      "notes": null
+     },
+     {
+      "exerciseId": "ex-Seated_Cable_Rows",
+      "sets": 3,
+      "repsMin": 8,
+      "repsMax": 12,
+      "restSeconds": 90,
+      "rpe": null,
+      "notes": null
+     },
+     {
+      "exerciseId": "ex-Face_Pull",
+      "sets": 3,
+      "repsMin": 12,
+      "repsMax": 15,
+      "restSeconds": 45,
+      "rpe": null,
+      "notes": null
+     },
+     {
+      "exerciseId": "rosca-direta",
+      "sets": 3,
+      "repsMin": 8,
+      "repsMax": 12,
+      "restSeconds": 60,
+      "rpe": null,
+      "notes": null
+     },
+     {
+      "exerciseId": "ex-Hammer_Curls",
+      "sets": 3,
+      "repsMin": 10,
+      "repsMax": 12,
+      "restSeconds": 45,
+      "rpe": null,
+      "notes": null
+     }
+    ]
+   },
+   {
+    "name": "C",
+    "focus": "Legs — pernas e core",
+    "exercises": [
+     {
+      "exerciseId": "agachamento-livre",
+      "sets": 4,
+      "repsMin": 6,
+      "repsMax": 10,
+      "restSeconds": 180,
+      "rpe": null,
+      "notes": null
+     },
+     {
+      "exerciseId": "levantamento-terra",
+      "sets": 3,
+      "repsMin": 5,
+      "repsMax": 8,
+      "restSeconds": 180,
+      "rpe": null,
+      "notes": null
+     },
+     {
+      "exerciseId": "leg-press",
+      "sets": 3,
+      "repsMin": 10,
+      "repsMax": 12,
+      "restSeconds": 90,
+      "rpe": null,
+      "notes": null
+     },
+     {
+      "exerciseId": "ex-Lying_Leg_Curls",
+      "sets": 3,
+      "repsMin": 10,
+      "repsMax": 12,
+      "restSeconds": 60,
+      "rpe": null,
+      "notes": null
+     },
+     {
+      "exerciseId": "ex-Standing_Calf_Raises",
+      "sets": 4,
+      "repsMin": 12,
+      "repsMax": 15,
+      "restSeconds": 45,
+      "rpe": null,
+      "notes": null
+     },
+     {
+      "exerciseId": "prancha",
+      "sets": 3,
+      "repsMin": 40,
+      "repsMax": 60,
+      "restSeconds": 45,
+      "rpe": null,
+      "notes": null
+     }
+    ]
+   },
+   {
+    "name": "D",
+    "focus": "Push 2 — variações",
+    "exercises": [
+     {
+      "exerciseId": "ex-Dumbbell_Bench_Press",
+      "sets": 4,
+      "repsMin": 8,
+      "repsMax": 12,
+      "restSeconds": 90,
+      "rpe": null,
+      "notes": null
+     },
+     {
+      "exerciseId": "ex-Incline_Dumbbell_Flyes",
+      "sets": 3,
+      "repsMin": 12,
+      "repsMax": 15,
+      "restSeconds": 60,
+      "rpe": null,
+      "notes": null
+     },
+     {
+      "exerciseId": "ex-Arnold_Dumbbell_Press",
+      "sets": 3,
+      "repsMin": 10,
+      "repsMax": 12,
+      "restSeconds": 60,
+      "rpe": null,
+      "notes": null
+     },
+     {
+      "exerciseId": "ex-Cable_Crossover",
+      "sets": 3,
+      "repsMin": 12,
+      "repsMax": 15,
+      "restSeconds": 60,
+      "rpe": null,
+      "notes": null
+     },
+     {
+      "exerciseId": "ex-Cable_Rope_Overhead_Triceps_Extension",
+      "sets": 3,
+      "repsMin": 10,
+      "repsMax": 12,
+      "restSeconds": 45,
+      "rpe": null,
+      "notes": null
+     },
+     {
+      "exerciseId": "ex-Bench_Dips",
+      "sets": 3,
+      "repsMin": 8,
+      "repsMax": 12,
+      "restSeconds": 60,
+      "rpe": null,
+      "notes": null
+     }
+    ]
+   },
+   {
+    "name": "E",
+    "focus": "Pull 2 — variações",
+    "exercises": [
+     {
+      "exerciseId": "ex-Wide-Grip_Lat_Pulldown",
+      "sets": 4,
+      "repsMin": 8,
+      "repsMax": 12,
+      "restSeconds": 90,
+      "rpe": null,
+      "notes": null
+     },
+     {
+      "exerciseId": "ex-One-Arm_Dumbbell_Row",
+      "sets": 4,
+      "repsMin": 8,
+      "repsMax": 12,
+      "restSeconds": 90,
+      "rpe": null,
+      "notes": null
+     },
+     {
+      "exerciseId": "ex-Straight-Arm_Pulldown",
+      "sets": 3,
+      "repsMin": 12,
+      "repsMax": 15,
+      "restSeconds": 60,
+      "rpe": null,
+      "notes": null
+     },
+     {
+      "exerciseId": "ex-Reverse_Flyes",
+      "sets": 3,
+      "repsMin": 12,
+      "repsMax": 15,
+      "restSeconds": 45,
+      "rpe": null,
+      "notes": null
+     },
+     {
+      "exerciseId": "ex-Preacher_Curl",
+      "sets": 3,
+      "repsMin": 10,
+      "repsMax": 12,
+      "restSeconds": 45,
+      "rpe": null,
+      "notes": null
+     },
+     {
+      "exerciseId": "ex-Hanging_Leg_Raise",
+      "sets": 3,
+      "repsMin": 8,
+      "repsMax": 12,
+      "restSeconds": 60,
+      "rpe": null,
+      "notes": null
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "calistenia-fundamental",
+  "name": "Calistenia Fundamental",
+  "description": "Base de empurrar, puxar, pernas e core usando barra e peso corporal.",
+  "goal": "Base de calistenia",
+  "level": "Iniciante",
+  "modality": "calistenia",
+  "daysPerWeek": 3,
+  "weeks": 8,
+  "equipment": "Barra e peso corporal",
+  "focusSummary": "Empurrar, puxar e pernas/core",
+  "progression": "Comece na parte de baixo das repetições. Quando bater o topo da faixa em todas as séries, aumente 2,5 kg (ou uma variação mais difícil). Nas semanas 4 e 8, reduza o volume pela metade (deload).",
+  "sortOrder": 40,
+  "days": [
+   {
+    "name": "A",
+    "focus": "Empurrar — peito, ombro e tríceps",
+    "exercises": [
+     {
+      "exerciseId": "flexao",
+      "sets": 4,
+      "repsMin": 8,
+      "repsMax": 15,
+      "restSeconds": 90,
+      "rpe": null,
+      "notes": null
+     },
+     {
+      "exerciseId": "ex-Incline_Push-Up",
+      "sets": 3,
+      "repsMin": 10,
+      "repsMax": 15,
+      "restSeconds": 60,
+      "rpe": null,
+      "notes": null
+     },
+     {
+      "exerciseId": "paralelas",
+      "sets": 3,
+      "repsMin": 6,
+      "repsMax": 10,
+      "restSeconds": 90,
+      "rpe": null,
+      "notes": null
+     },
+     {
+      "exerciseId": "ex-Push-Ups_-_Close_Triceps_Position",
+      "sets": 3,
+      "repsMin": 8,
+      "repsMax": 12,
+      "restSeconds": 60,
+      "rpe": null,
+      "notes": null
+     },
+     {
+      "exerciseId": "prancha",
+      "sets": 3,
+      "repsMin": 30,
+      "repsMax": 45,
+      "restSeconds": 45,
+      "rpe": null,
+      "notes": null
+     }
+    ]
+   },
+   {
+    "name": "B",
+    "focus": "Puxar — costas e bíceps",
+    "exercises": [
+     {
+      "exerciseId": "barra-australiana",
+      "sets": 4,
+      "repsMin": 8,
+      "repsMax": 12,
+      "restSeconds": 90,
+      "rpe": null,
+      "notes": null
+     },
+     {
+      "exerciseId": "barra-fixa",
+      "sets": 4,
+      "repsMin": 3,
+      "repsMax": 8,
+      "restSeconds": 120,
+      "rpe": null,
+      "notes": null
+     },
+     {
+      "exerciseId": "ex-Chin-Up",
+      "sets": 3,
+      "repsMin": 3,
+      "repsMax": 8,
+      "restSeconds": 120,
+      "rpe": null,
+      "notes": null
+     },
+     {
+      "exerciseId": "ex-Hanging_Leg_Raise",
+      "sets": 3,
+      "repsMin": 8,
+      "repsMax": 12,
+      "restSeconds": 60,
+      "rpe": null,
+      "notes": null
+     },
+     {
+      "exerciseId": "ex-Cocoons",
+      "sets": 3,
+      "repsMin": 10,
+      "repsMax": 15,
+      "restSeconds": 45,
+      "rpe": null,
+      "notes": null
+     }
+    ]
+   },
+   {
+    "name": "C",
+    "focus": "Pernas e core",
+    "exercises": [
+     {
+      "exerciseId": "ex-Bodyweight_Squat",
+      "sets": 4,
+      "repsMin": 15,
+      "repsMax": 25,
+      "restSeconds": 60,
+      "rpe": null,
+      "notes": null
+     },
+     {
+      "exerciseId": "pistol-squat",
+      "sets": 3,
+      "repsMin": 3,
+      "repsMax": 8,
+      "restSeconds": 90,
+      "rpe": null,
+      "notes": null
+     },
+     {
+      "exerciseId": "ex-Mountain_Climbers",
+      "sets": 3,
+      "repsMin": 20,
+      "repsMax": 30,
+      "restSeconds": 45,
+      "rpe": null,
+      "notes": null
+     },
+     {
+      "exerciseId": "prancha",
+      "sets": 3,
+      "repsMin": 40,
+      "repsMax": 60,
+      "restSeconds": 45,
+      "rpe": null,
+      "notes": null
+     },
+     {
+      "exerciseId": "ex-Side_Bridge",
+      "sets": 3,
+      "repsMin": 30,
+      "repsMax": 45,
+      "restSeconds": 45,
+      "rpe": null,
+      "notes": null
+     },
+     {
+      "exerciseId": "ex-Dead_Bug",
+      "sets": 3,
+      "repsMin": 10,
+      "repsMax": 15,
+      "restSeconds": 45,
+      "rpe": null,
+      "notes": null
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "hibrido-forca-barra",
+  "name": "Híbrido Força + Barra",
+  "description": "Dois dias de força na academia e dois dias de calistenia para força e habilidades.",
+  "goal": "Força e habilidades",
+  "level": "Intermediário",
+  "modality": "hibrido",
+  "daysPerWeek": 4,
+  "weeks": 8,
+  "equipment": "Academia e barra",
+  "focusSummary": "Força + calistenia",
+  "progression": "Suba a carga quando bater o topo das repetições em todas as séries. A cada 4 semanas, faça uma semana leve com cerca de 60% do volume. Registre as cargas para acompanhar a evolução.",
+  "sortOrder": 50,
+  "days": [
+   {
+    "name": "A",
+    "focus": "Força superior",
+    "exercises": [
+     {
+      "exerciseId": "supino-reto",
+      "sets": 4,
+      "repsMin": 5,
+      "repsMax": 8,
+      "restSeconds": 150,
+      "rpe": null,
+      "notes": null
+     },
+     {
+      "exerciseId": "barra-fixa",
+      "sets": 4,
+      "repsMin": 5,
+      "repsMax": 8,
+      "restSeconds": 120,
+      "rpe": null,
+      "notes": null
+     },
+     {
+      "exerciseId": "desenvolvimento-militar",
+      "sets": 3,
+      "repsMin": 6,
+      "repsMax": 10,
+      "restSeconds": 90,
+      "rpe": null,
+      "notes": null
+     },
+     {
+      "exerciseId": "remada-curvada",
+      "sets": 3,
+      "repsMin": 6,
+      "repsMax": 10,
+      "restSeconds": 90,
+      "rpe": null,
+      "notes": null
+     },
+     {
+      "exerciseId": "ex-Face_Pull",
+      "sets": 3,
+      "repsMin": 12,
+      "repsMax": 15,
+      "restSeconds": 45,
+      "rpe": null,
+      "notes": null
+     }
+    ]
+   },
+   {
+    "name": "B",
+    "focus": "Força inferior",
+    "exercises": [
+     {
+      "exerciseId": "agachamento-livre",
+      "sets": 4,
+      "repsMin": 5,
+      "repsMax": 8,
+      "restSeconds": 180,
+      "rpe": null,
+      "notes": null
+     },
+     {
+      "exerciseId": "levantamento-terra",
+      "sets": 3,
+      "repsMin": 5,
+      "repsMax": 6,
+      "restSeconds": 180,
+      "rpe": null,
+      "notes": null
+     },
+     {
+      "exerciseId": "leg-press",
+      "sets": 3,
+      "repsMin": 8,
+      "repsMax": 12,
+      "restSeconds": 90,
+      "rpe": null,
+      "notes": null
+     },
+     {
+      "exerciseId": "prancha",
+      "sets": 3,
+      "repsMin": 40,
+      "repsMax": 60,
+      "restSeconds": 45,
+      "rpe": null,
+      "notes": null
+     }
+    ]
+   },
+   {
+    "name": "C",
+    "focus": "Calistenia — empurrar e puxar",
+    "exercises": [
+     {
+      "exerciseId": "flexao",
+      "sets": 4,
+      "repsMin": 10,
+      "repsMax": 20,
+      "restSeconds": 60,
+      "rpe": null,
+      "notes": null
+     },
+     {
+      "exerciseId": "barra-australiana",
+      "sets": 4,
+      "repsMin": 8,
+      "repsMax": 12,
+      "restSeconds": 60,
+      "rpe": null,
+      "notes": null
+     },
+     {
+      "exerciseId": "paralelas",
+      "sets": 3,
+      "repsMin": 6,
+      "repsMax": 12,
+      "restSeconds": 90,
+      "rpe": null,
+      "notes": null
+     },
+     {
+      "exerciseId": "ex-Chin-Up",
+      "sets": 3,
+      "repsMin": 4,
+      "repsMax": 8,
+      "restSeconds": 90,
+      "rpe": null,
+      "notes": null
+     },
+     {
+      "exerciseId": "ex-Hanging_Leg_Raise",
+      "sets": 3,
+      "repsMin": 8,
+      "repsMax": 12,
+      "restSeconds": 60,
+      "rpe": null,
+      "notes": null
+     }
+    ]
+   },
+   {
+    "name": "D",
+    "focus": "Acessórios e core",
+    "exercises": [
+     {
+      "exerciseId": "ex-Seated_Dumbbell_Press",
+      "sets": 3,
+      "repsMin": 8,
+      "repsMax": 12,
+      "restSeconds": 60,
+      "rpe": null,
+      "notes": null
+     },
+     {
+      "exerciseId": "ex-Hammer_Curls",
+      "sets": 3,
+      "repsMin": 10,
+      "repsMax": 12,
+      "restSeconds": 45,
+      "rpe": null,
+      "notes": null
+     },
+     {
+      "exerciseId": "ex-Triceps_Pushdown",
+      "sets": 3,
+      "repsMin": 10,
+      "repsMax": 12,
+      "restSeconds": 45,
+      "rpe": null,
+      "notes": null
+     },
+     {
+      "exerciseId": "ex-Lying_Leg_Curls",
+      "sets": 3,
+      "repsMin": 10,
+      "repsMax": 12,
+      "restSeconds": 60,
+      "rpe": null,
+      "notes": null
+     },
+     {
+      "exerciseId": "ex-Standing_Calf_Raises",
+      "sets": 4,
+      "repsMin": 12,
+      "repsMax": 15,
+      "restSeconds": 45,
+      "rpe": null,
+      "notes": null
+     },
+     {
+      "exerciseId": "ex-Side_Bridge",
+      "sets": 3,
+      "repsMin": 30,
+      "repsMax": 45,
+      "restSeconds": 45,
+      "rpe": null,
+      "notes": null
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "em-casa-3x",
+  "name": "Em Casa sem Equipamento",
+  "description": "Três treinos de corpo inteiro usando só o peso corporal, para fazer em qualquer lugar.",
+  "goal": "Condicionamento em casa",
+  "level": "Iniciante",
+  "modality": "calistenia",
+  "daysPerWeek": 3,
+  "weeks": 8,
+  "equipment": "Nenhum",
+  "focusSummary": "Corpo inteiro com peso corporal",
+  "progression": "Comece na parte de baixo das repetições. Quando bater o topo da faixa em todas as séries, aumente 2,5 kg (ou uma variação mais difícil). Nas semanas 4 e 8, reduza o volume pela metade (deload).",
+  "sortOrder": 60,
+  "days": [
+   {
+    "name": "A",
+    "focus": "Empurrar e core",
+    "exercises": [
+     {
+      "exerciseId": "flexao",
+      "sets": 4,
+      "repsMin": 8,
+      "repsMax": 15,
+      "restSeconds": 60,
+      "rpe": null,
+      "notes": null
+     },
+     {
+      "exerciseId": "ex-Incline_Push-Up",
+      "sets": 3,
+      "repsMin": 10,
+      "repsMax": 15,
+      "restSeconds": 60,
+      "rpe": null,
+      "notes": null
+     },
+     {
+      "exerciseId": "ex-Bench_Dips",
+      "sets": 3,
+      "repsMin": 8,
+      "repsMax": 12,
+      "restSeconds": 60,
+      "rpe": null,
+      "notes": null
+     },
+     {
+      "exerciseId": "ex-Push-Up_Wide",
+      "sets": 3,
+      "repsMin": 8,
+      "repsMax": 12,
+      "restSeconds": 60,
+      "rpe": null,
+      "notes": null
+     },
+     {
+      "exerciseId": "prancha",
+      "sets": 3,
+      "repsMin": 30,
+      "repsMax": 45,
+      "restSeconds": 45,
+      "rpe": null,
+      "notes": null
+     }
+    ]
+   },
+   {
+    "name": "B",
+    "focus": "Pernas, core e condicionamento",
+    "exercises": [
+     {
+      "exerciseId": "ex-Bodyweight_Squat",
+      "sets": 4,
+      "repsMin": 15,
+      "repsMax": 25,
+      "restSeconds": 60,
+      "rpe": null,
+      "notes": null
+     },
+     {
+      "exerciseId": "ex-Mountain_Climbers",
+      "sets": 3,
+      "repsMin": 20,
+      "repsMax": 30,
+      "restSeconds": 45,
+      "rpe": null,
+      "notes": null
+     },
+     {
+      "exerciseId": "ex-Dead_Bug",
+      "sets": 3,
+      "repsMin": 10,
+      "repsMax": 15,
+      "restSeconds": 45,
+      "rpe": null,
+      "notes": null
+     },
+     {
+      "exerciseId": "ex-Cocoons",
+      "sets": 3,
+      "repsMin": 10,
+      "repsMax": 15,
+      "restSeconds": 45,
+      "rpe": null,
+      "notes": null
+     },
+     {
+      "exerciseId": "ex-Side_Bridge",
+      "sets": 3,
+      "repsMin": 30,
+      "repsMax": 45,
+      "restSeconds": 45,
+      "rpe": null,
+      "notes": null
+     }
+    ]
+   },
+   {
+    "name": "C",
+    "focus": "Corpo inteiro",
+    "exercises": [
+     {
+      "exerciseId": "flexao",
+      "sets": 3,
+      "repsMin": 8,
+      "repsMax": 15,
+      "restSeconds": 60,
+      "rpe": null,
+      "notes": null
+     },
+     {
+      "exerciseId": "ex-Bodyweight_Squat",
+      "sets": 3,
+      "repsMin": 15,
+      "repsMax": 25,
+      "restSeconds": 60,
+      "rpe": null,
+      "notes": null
+     },
+     {
+      "exerciseId": "ex-Bench_Dips",
+      "sets": 3,
+      "repsMin": 8,
+      "repsMax": 12,
+      "restSeconds": 60,
+      "rpe": null,
+      "notes": null
+     },
+     {
+      "exerciseId": "ex-Cross-Body_Crunch",
+      "sets": 3,
+      "repsMin": 10,
+      "repsMax": 15,
+      "restSeconds": 45,
+      "rpe": null,
+      "notes": null
+     },
+     {
+      "exerciseId": "ex-Mountain_Climbers",
+      "sets": 3,
+      "repsMin": 20,
+      "repsMax": 30,
+      "restSeconds": 45,
+      "rpe": null,
+      "notes": null
+     },
+     {
+      "exerciseId": "prancha",
+      "sets": 3,
+      "repsMin": 30,
+      "repsMax": 45,
+      "restSeconds": 45,
+      "rpe": null,
+      "notes": null
+     }
+    ]
+   }
+  ]
+ }
+]
